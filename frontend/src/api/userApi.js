@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // const API = "http://localhost:5000/api/users";
-const API = "https://clg-majorprojrct.onrender.com/api/users";
+const API = "https://clg-majorproject-oab0.onrender.com/api/users";
 
 // export const updateUserDepartment = async (userId, departmentId) => {
 //   const res = await axios.put(`${API}/update-department`, {

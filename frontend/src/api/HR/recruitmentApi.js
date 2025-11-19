@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const API = "http://localhost:5000/api/recruitment";
-// const API = "https://clg-majorprojrct.onrender.com/api/recruitment";
+// const API = "http://localhost:5000/api/recruitment";
+const API = "https://clg-majorproject-oab0.onrender.com/api/recruitment";
 export const getJobs = () => axios.get(`${API}/jobs`);
 export const createJob = (data) => axios.post(`${API}/jobs`, data);
 

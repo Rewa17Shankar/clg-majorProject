@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const API = "http://localhost:5000/api";
+// const API = "http://localhost:5000/api";
+const API = "https://clg-majorproject-oab0.onrender.com/api"
 
 export const getEmployeeAssets = async (id) => {
   const res = await axios.get(`${API}/employee-assets/${id}`);

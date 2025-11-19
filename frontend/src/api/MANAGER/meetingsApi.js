@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:5000/api/meetings"; 
-// const BASE_URL = "https://clg-majorprojrct.onrender.com/api/meetings"; 
+// const BASE_URL = "http://localhost:5000/api/meetings"; 
+const BASE_URL = "https://clg-majorproject-oab0.onrender.com/api/meetings"; 
 
 // Get all meetings
 export const fetchMeetings = async () => {

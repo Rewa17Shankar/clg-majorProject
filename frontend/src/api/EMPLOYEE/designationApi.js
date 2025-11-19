@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/employee/designation";
-
+// const API_URL = "http://localhost:5000/api/employee/designation";
+const API_URL = "https://clg-majorproject-oab0.onrender.com/api/employee/designation"
 export const fetchMyDesignation = async () => {
   const token = localStorage.getItem("token");
 

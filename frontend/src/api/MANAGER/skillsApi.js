@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // const API_URL = "http://localhost:5000/api/skills";
-const API_URL = "https://clg-majorprojrct.onrender.com/api/skills";
+const API_URL = "https://clg-majorproject-oab0.onrender.com/api/skills";
 
 export const fetchSkills = async () => {
   const { data } = await axios.get(API_URL);

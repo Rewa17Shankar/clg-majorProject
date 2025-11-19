@@ -144,8 +144,8 @@
 
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/teams";
-
+// const API_URL = "http://localhost:5000/api/teams";
+const API_URL = "https://clg-majorproject-oab0.onrender.com/api/teams"
 // Get all teams
 export const getTeams = async () => {
   try {

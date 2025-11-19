@@ -18,8 +18,8 @@
 // /frontend/src/api/goalsTasksApi.js
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/goals-tasks";
-
+// const API_URL = "http://localhost:5000/api/goals-tasks";
+const API_URL = "https://clg-majorproject-oab0.onrender.com/api/goals-taska"
 export const getGoalsTasks = async () => {
   const user = JSON.parse(localStorage.getItem("user"));
   const token = user?.token;

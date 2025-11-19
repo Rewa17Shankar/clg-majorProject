@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const API = "http://localhost:5000/api/designations";
-// const API = "https://clg-majorprojrct.onrender.com/api/designations";
+// const API = "http://localhost:5000/api/designations";
+const API = "https://clg-majorproject-oab0.onrender.com/api/designations";
 
 // export const getDesignations = async () => {
 //   const res = await axios.get(API);

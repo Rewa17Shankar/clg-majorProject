@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/manager/submissions";
-
+// const API_URL = "http://localhost:5000/api/manager/submissions";
+const API_URL = "https://clg-majorproject-oab0.onrender.com/api/manager/submissions"
 // ============================
 // GET SUBMITTED TASKS
 // ============================

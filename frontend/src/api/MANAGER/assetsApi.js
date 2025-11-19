@@ -1,8 +1,8 @@
 
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/assets";
-// const API_URL = "https://clg-majorprojrct.onrender.com/api/assets";
+// const API_URL = "http://localhost:5000/api/assets";
+const API_URL = "https://clg-majorproject-oab0.onrender.com/api/assets";
 
 
 export const getAssets = async () => {

@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const API = "http://localhost:5000/api/goals";
-// const API = "https://clg-majorprojrct.onrender.com/api/goals";
+// const API = "http://localhost:5000/api/goals";
+const API = "https://clg-majorproject-oab0.onrender.com/api/goals";
 
 // ➤ Get all goals
 export const getGoals = async () => {

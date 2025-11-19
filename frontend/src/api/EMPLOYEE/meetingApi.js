@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/employee/meetings";
-
+// const API_URL = "http://localhost:5000/api/employee/meetings";
+const API_URL = "https://clg-majorproject-oab0.onrender.com/api/employee/meetings"
 export const getEmployeeMeetings = async () => {
   const token = localStorage.getItem("token");
 
