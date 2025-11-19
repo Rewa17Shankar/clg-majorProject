@@ -103,7 +103,7 @@ export default function Pricing() {
         phone: buyer.phone
       };
 
-      const API_BASE = "https://clg-majorproject-oab0.onrender.com" || "http://localhost:5000"      ;
+      const API_BASE = "https://clg-majorproject-oab0.onrender.com"  ;
       const res = await fetch(`${API_BASE}/api/payment`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
