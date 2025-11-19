@@ -263,7 +263,7 @@ const allowedOrigins = [
   "http://localhost:5173",
   "http://localhost:5174",
   "http://localhost:3000",
-  "https://clg-major-projrct.vercel.app",
+  "https://clg-major-project.vercel.app",
 ];
 
 // Log incoming request origin if present (helpful for debugging CORS issues)
@@ -368,7 +368,7 @@ app.post("/api/payment", (req, res) => {
 
     // Frontend SPA URL (change to your production SPA if different)
     const FRONTEND_URL = process.env.NODE_ENV === "production"
-      ? "https://clg-major-projrct.vercel.app"
+      ? "https://clg-major-project.vercel.app"
       : "http://localhost:5173";
 
     const response = {
@@ -428,10 +428,10 @@ app.post("/api/payu-callback", (req, res) => {
 
     // Frontend SPA payment result routes
     const successUrl = process.env.NODE_ENV === "production"
-      ? "https://clg-major-projrct.vercel.app/success"
+      ? "https://clg-major-project.vercel.app/success"
       : "http://localhost:5173/success";
     const failureUrl = process.env.NODE_ENV === "production"
-      ? "https://clg-major-projrct.vercel.app/payment-failed"
+      ? "https://clg-major-project.vercel.app/payment-failed"
       : "http://localhost:5173/payment-failed";
 
     if (!response_hash || calculatedHash !== String(response_hash)) {
